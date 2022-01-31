@@ -1,0 +1,10 @@
+.countdown-container .timer-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.countdown-container .day-count {
+  margin-bottom: 1rem;
+  color: burlywood;
+}

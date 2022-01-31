@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url(./images/vals.jpg);
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
+
+.countdown-container{
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.countdown-container h1{
+  margin: 5rem 0 3rem 0;
+  font-weight: normal;
+}
+
+.countdown-container .timer-container{
+  display: flex;
+  flex-direction: row;
+  line-height: 2rem;
+  text-align: center;
+  
+  
+}
+
+.countdown-container .day-count{
+  margin: 0 2rem;
+}
+
+.countdown-container .timer-container p{
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+.countdown-container .timer-container span{
+  font-size: 1.5rem;
+}
+
